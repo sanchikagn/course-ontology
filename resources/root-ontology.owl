@@ -1,0 +1,1453 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/9KgII8rgzOUxyZjJjnqjjy#"
+     xml:base="http://webprotege.stanford.edu/project/9KgII8rgzOUxyZjJjnqjjy"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:e-ayur="http://ontologies.org/e-ayur/"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/9KgII8rgzOUxyZjJjnqjjy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdfs:label xml:lang="si">has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+        <rdfs:label xml:lang="si">proven_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdfs:label xml:lang="si">suffered_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZozTm6wc5MmQOgP6ksrR0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7ZozTm6wc5MmQOgP6ksrR0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="si">question_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ytn5ElT4yJdncd0naF4QG -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7ytn5ElT4yJdncd0naF4QG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="si">reason_description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R90irPhJwRzz4pGC50lGWlg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R90irPhJwRzz4pGC50lGWlg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="si">symptom_description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9HgTt2CSwCQdJW90UKNCxI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9HgTt2CSwCQdJW90UKNCxI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="si">body_part_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wSvsa1Z79TAil2nkRTbN7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9wSvsa1Z79TAil2nkRTbN7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="si">reason_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6krKheb0CCOJz2UrEYKot -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB6krKheb0CCOJz2UrEYKot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="si">symptom_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBeEN8esNGkHtdrsHbLrhGZ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBeEN8esNGkHtdrsHbLrhGZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="si">question</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr6AaUEImamXL3QLpgOkAv -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rr6AaUEImamXL3QLpgOkAv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="si">body_part_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="si">reasons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="si">symptoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do">
+        <rdfs:label xml:lang="si">questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="si">body_parts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0TaSutT9TMfPAw5Q8WTXt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R0TaSutT9TMfPAw5Q8WTXt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8M9uNFaIvTSbXVCXO4I5A3"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සමේ තෙල් සහිත බව</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සමේ තෙල් සහිත බව</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">සමේ තෙල් සහිත බව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76n7CUxFP8sk6SftXZySrL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R76n7CUxFP8sk6SftXZySrL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තොල් පැලීයාම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">තොල් පැලීයාම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R786pjj5vnPQynESYuhPiaD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R786pjj5vnPQynESYuhPiaD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R0TaSutT9TMfPAw5Q8WTXt"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R7Tq4jcHTDu9AB9y6u9GZQG"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R8gg3HflQ9XxBS9PbipuTXb"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R9RTdPDzNKsChOmBRuxZD6"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R9nsuH61nP5mQ7suiZ1zYQh"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RKdtNeIA8XCppfGr3HhATk"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RrdLCY8ECtY9t0S5Xv5VOw"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සම</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">සම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78ot8O4qKa2Zjl2kkZsCUU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R78ot8O4qKa2Zjl2kkZsCUU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R7rL8qCyiGHC04D6tvSgb4k"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R8TPspRA5XPKF5JFn9op7J7"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R8f9X3vsKpKHKhzevYp4HJD"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RBOYW8lBEUvfHZhr9Un8Qac"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RMM1dGuZsqOc7hckKy8Mct"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RidP4vhTz1gGA8T3P2byQv"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/Rz4sPdSKRvdR5bAHBt3gyB"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කොන්ඩය</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">කොන්ඩය</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AJWwAuyuxnyrqYuEjQSCx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7AJWwAuyuxnyrqYuEjQSCx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R7KE257X1xkev7wcZQNeaXU"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කෘශබව</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">කෘශබව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KE257X1xkev7wcZQNeaXU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7KE257X1xkev7wcZQNeaXU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RORARNiQveolCX1oh0PZdv"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කෙට්ටු වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කෙට්ටු වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7S3mpFx4VEO2ge1Qw96vPm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7S3mpFx4VEO2ge1Qw96vPm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R7nJc2W3kUXMXMiXmNojFbM"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R9EIwFhPxdakA72i30EET9D"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ස්ථුලතාවය</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">ස්ථුලතාවය</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Tq4jcHTDu9AB9y6u9GZQG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Tq4jcHTDu9AB9y6u9GZQG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සුදු පැහැ තිත්</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">සුදු පැහැ තිත්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ViIsdjEkwj3cR4yzThwdt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ViIsdjEkwj3cR4yzThwdt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">නින්ද අඩු කම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">නින්ද අඩු කම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7W9EaBVzNzdciXTIXGUfGg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7W9EaBVzNzdciXTIXGUfGg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">යටි පතුල් පැලීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">යටි පතුල් පැලීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nJc2W3kUXMXMiXmNojFbM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7nJc2W3kUXMXMiXmNojFbM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDAwSxypumwlMqPJOQZA0yz"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">බඩ ඉදිරියට නෙරා ඒම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">බඩ ඉදිරියට නෙරා ඒම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rL8qCyiGHC04D6tvSgb4k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rL8qCyiGHC04D6tvSgb4k">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කෙස් වර්ධනය හීන වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කෙස් වර්ධනය හීන වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">පෝෂණ ඌනතා</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">පෝෂණ ඌනතා</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8M9uNFaIvTSbXVCXO4I5A3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8M9uNFaIvTSbXVCXO4I5A3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ආහාර රටාව</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">ආහාර රටාව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OJwgjFuRqHPZ1kT8Patfj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8OJwgjFuRqHPZ1kT8Patfj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">අසාත්මිකතා</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">අසාත්මිකතා</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TPspRA5XPKF5JFn9op7J7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8TPspRA5XPKF5JFn9op7J7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RFWN8IWM17Hg5zKQgGhUdq"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">හිස් හොරි</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">ඉස්සොරි/හිස්සොරි/හිස්හොරි</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8f9X3vsKpKHKhzevYp4HJD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8f9X3vsKpKHKhzevYp4HJD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RD16BfQiv9urMIw5DxgEyT"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RGHxMuzHJ65CX7p9Fez3lg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කෙස් අග පැලීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කෙස් අග පැලීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gg3HflQ9XxBS9PbipuTXb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8gg3HflQ9XxBS9PbipuTXb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R0TaSutT9TMfPAw5Q8WTXt"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8M9uNFaIvTSbXVCXO4I5A3"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8OJwgjFuRqHPZ1kT8Patfj"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RBxaL0yWFqPz97QRbpO1sDK"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RFWN8IWM17Hg5zKQgGhUdq"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කුරුලැ</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කුරුලැ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8trqqeaBfouYhYifGeUf91 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8trqqeaBfouYhYifGeUf91">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">පැණි රස ආහර වැඩිපුර පරිභෝජනය කිරීම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">පැණි රස ආහර වැඩිපුර පරිභෝජනය කිරීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96pOlWJNo1njR3Z7J5aEqp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R96pOlWJNo1njR3Z7J5aEqp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R7W9EaBVzNzdciXTIXGUfGg"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RBgCLD1HG5h4kPPVTve3NGr"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RCPLbRQGReEGDHjLroyqJa9"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RaOoIdr3LlzFi0ItncH349"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">යටිපතුල්</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">යටිපතුල්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97a6GbQIqgHk0OYVl8fILK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R97a6GbQIqgHk0OYVl8fILK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">පාරිසරික හේතු</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">පාරිසරික හේතු</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EIwFhPxdakA72i30EET9D -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9EIwFhPxdakA72i30EET9D">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDAwSxypumwlMqPJOQZA0yz"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">අධික මේද තැන්පත් වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">අධික මේද තැන්පත් වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RTdPDzNKsChOmBRuxZD6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9RTdPDzNKsChOmBRuxZD6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R97a6GbQIqgHk0OYVl8fILK"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RBqkPi7q80LYm1rb4rRu263"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සමේ වියලි බව</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සමේ වියලි බව</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">සමේ වියලි බව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nsuH61nP5mQ7suiZ1zYQh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9nsuH61nP5mQ7suiZ1zYQh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R9RTdPDzNKsChOmBRuxZD6"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RH1MMxRlmQFTRXV6f97vCm"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සම රැලි වැටීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">සම රැලි වැටීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9x4t5o8aCKjXjUEkO5k9u5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9x4t5o8aCKjXjUEkO5k9u5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">සබන් වර්ග</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">සබන් වර්ග</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOYW8lBEUvfHZhr9Un8Qac -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBOYW8lBEUvfHZhr9Un8Qac">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R97a6GbQIqgHk0OYVl8fILK"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RFWN8IWM17Hg5zKQgGhUdq"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කොන්ඩය වැටීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කොන්ඩය වැටීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgCLD1HG5h4kPPVTve3NGr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgCLD1HG5h4kPPVTve3NGr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">යටි පතුල් වල හම ගැලවී යාම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">යටි පතුල් වල හම ගැලවී යාම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpadvVq9JGopuRZg8PAJIx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBpadvVq9JGopuRZg8PAJIx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තුවාල කැලැල්</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">තුවාල කැලැල්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqkPi7q80LYm1rb4rRu263 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBqkPi7q80LYm1rb4rRu263">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ජල පරිභෝජනය අඩු වීම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">ජල පරිභෝජනය අඩු වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrXRsXvreWprH2gDfwhiCC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBrXRsXvreWprH2gDfwhiCC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/R76n7CUxFP8sk6SftXZySrL"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RC8zmbGDFfqK04gx0OoHFRW"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RCL9ibZPrTRSGD0xysO9RcP"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RDn5YL9t6njtxwmWMVj0Cqu"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තොල්</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">තොල්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxaL0yWFqPz97QRbpO1sDK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBxaL0yWFqPz97QRbpO1sDK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">හොර්මෝන ක්රියාකාරීත්වයේ වෙනස් වීම්</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">හොර්මෝන ක්රියාකාරීත්වයේ වෙනස් වීම්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0zIjLtsaPmL7hmqmHIfAp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0zIjLtsaPmL7hmqmHIfAp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">නියපොතු දුර්වර්ණ වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">නියපොතු දුර්වර්ණ වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8zmbGDFfqK04gx0OoHFRW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC8zmbGDFfqK04gx0OoHFRW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තොල් වියලීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">තොල් වියලීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCL9ibZPrTRSGD0xysO9RcP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCL9ibZPrTRSGD0xysO9RcP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තොල් අවපැහැ වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">තොල් අවපැහැ වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPLbRQGReEGDHjLroyqJa9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCPLbRQGReEGDHjLroyqJa9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දියමිටියන් කෑම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">දියමිටියන් කෑම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYcqfhL6BQMbSgP6GeYQRv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCYcqfhL6BQMbSgP6GeYQRv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දිලීර හෝ බැක්ටීරියා ආසාදන</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">දිලීර හෝ බැක්ටීරියා ආසාදන</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">රසායනික ද්රව්යය / වෙනත් ආලේපන</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">රසායනික ද්රව්යය / වෙනත් ආලේපන</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ආතතිය</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">ආතතිය</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCawIIy9t80x36BLvhmdqhk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCawIIy9t80x36BLvhmdqhk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">බර වැඩ කිරීම / බාහිර තැලීම්, ගැටීම්, හැපීම්, නිසා.</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">බර වැඩ කිරීම / බාහිර තැලීම් , ගැටීම්, හැපීම්, නිසා.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpcubg1SrbDbLoIOAGPrE4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCpcubg1SrbDbLoIOAGPrE4">
+        <rdfs:label xml:lang="si">බර වැඩ කිරීම / බාහිර තැලීම් , ගැටීම්, හැපීම්, නිසා</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD16BfQiv9urMIw5DxgEyT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD16BfQiv9urMIw5DxgEyT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">අධික උෂ්ණත්වයට භාජනය වීම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">අධික උෂ්ණත්වයට භාජනය වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDA9rLBuMy5lf6uKgaZxn23 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDA9rLBuMy5lf6uKgaZxn23">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">රසායනික ද්රව්ය හෝ විශ සහිත ද්රව්ය ඇල්ලීම නිසා</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">රසායනික ද්රව්ය හෝ විශ සහිත ද්රව්ය ඇල්ලීම නිසා</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAwSxypumwlMqPJOQZA0yz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDAwSxypumwlMqPJOQZA0yz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">අසමබර ආහාර රටාව</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">අසමබර ආහාර රටාව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">අපිරිසිදුකම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">අපිරිසිදුකම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYzmhwqbLaN2HTVMzt84K2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDYzmhwqbLaN2HTVMzt84K2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCpcubg1SrbDbLoIOAGPrE4"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDA9rLBuMy5lf6uKgaZxn23"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">නියපොතු කැඩීයාම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">නියපොතු කැඩීයාම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ආරය</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">ආරය</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn5YL9t6njtxwmWMVj0Cqu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDn5YL9t6njtxwmWMVj0Cqu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">තොල් වල සම ගැලවීයාම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">තොල් වල සම ගැලවීයාම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxMQrm0zhkN1Cm4sHniJ1r -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDxMQrm0zhkN1Cm4sHniJ1r">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දිලීර / බැක්ටීරියා ආසාදන</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">දිලීර / බැක්ටීරියා ආසාදන</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFWN8IWM17Hg5zKQgGhUdq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RFWN8IWM17Hg5zKQgGhUdq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">හිස් හොරි</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">හිස් හොරි</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGHxMuzHJ65CX7p9Fez3lg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGHxMuzHJ65CX7p9Fez3lg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කෙස් වල වියලි බව</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">කෙස් වල වියලි බව</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RH1MMxRlmQFTRXV6f97vCm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RH1MMxRlmQFTRXV6f97vCm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">වයස</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">වයස</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKdtNeIA8XCppfGr3HhATk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKdtNeIA8XCppfGr3HhATk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RBxaL0yWFqPz97QRbpO1sDK"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RjCqCw8ryZ3IFC4lbcX9mq"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ලප කැලැල්</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">ලප කැලැල්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLq4C8P3UHmwShoTxYikH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLq4C8P3UHmwShoTxYikH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RBqkPi7q80LYm1rb4rRu263"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දත් කහ වීම / දුර්වර්ණ වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">දත් කහ වීම / දුර්වර්ණ වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMM1dGuZsqOc7hckKy8Mct -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMM1dGuZsqOc7hckKy8Mct">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8IVR8cauTrTIeVLCofdGxb"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කොන්ඩය සුදු වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කොන්ඩය සුදු වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RORARNiQveolCX1oh0PZdv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RORARNiQveolCX1oh0PZdv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">වෙනත් රෝග තත්වයන්</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">වෙනත් රෝග තත්වයන්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQlaAMeTWtLG1RLFWfbyRC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RQlaAMeTWtLG1RLFWfbyRC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RC0zIjLtsaPmL7hmqmHIfAp"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RCYcqfhL6BQMbSgP6GeYQRv"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RDYzmhwqbLaN2HTVMzt84K2"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">නිය</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">නිය</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXXE7w5pBt5vogC7obmkQP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RXXE7w5pBt5vogC7obmkQP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RLq4C8P3UHmwShoTxYikH"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RsL2EuRkejbUVnHTOemkiY"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දත්</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">දත්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXt77khspbQVgWCTXaOK06 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RXt77khspbQVgWCTXaOK06">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RndtKwpSOeLbronAGdsBz7"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RuTVH0oYTVjWiS9tjRe3LG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RZmeFT9XBTtSJH2ESGbud3"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RZzmemQnsgYtvPc9I3qkN4"/>
+        <webprotege:RuTVH0oYTVjWiS9tjRe3LG rdf:resource="http://webprotege.stanford.edu/RqIMajr1ZZdNkfiCvapKmd"/>
+        <webprotege:R9HgTt2CSwCQdJW90UKNCxI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</webprotege:R9HgTt2CSwCQdJW90UKNCxI>
+        <webprotege:Rr6AaUEImamXL3QLpgOkAv rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ඇස්</webprotege:Rr6AaUEImamXL3QLpgOkAv>
+        <rdfs:label xml:lang="si">ඇස්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYo8DgQxjymPwICOc3xPjH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYo8DgQxjymPwICOc3xPjH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">පීනස</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">පීනස</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZmeFT9XBTtSJH2ESGbud3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZmeFT9XBTtSJH2ESGbud3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R7ViIsdjEkwj3cR4yzThwdt"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RH1MMxRlmQFTRXV6f97vCm"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ඇස් යට කලු වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">ඇස් යට කලු වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZzmemQnsgYtvPc9I3qkN4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RZzmemQnsgYtvPc9I3qkN4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaRLdKcYsczRb2WzaGzq7p"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RH1MMxRlmQFTRXV6f97vCm"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ඇස් යට රැලි වැටීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">ඇස් යට රැලි වැටීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaOoIdr3LlzFi0ItncH349 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RaOoIdr3LlzFi0ItncH349">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">යටි පතුල්වල තැලීම් ඇතිවීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">යටි පතුල්වල තැලීම් ඇතිවීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RidP4vhTz1gGA8T3P2byQv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RidP4vhTz1gGA8T3P2byQv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RYo8DgQxjymPwICOc3xPjH"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කොන්ඩය තුනී වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කොන්ඩය තුනී වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjCqCw8ryZ3IFC4lbcX9mq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RjCqCw8ryZ3IFC4lbcX9mq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDpruJEpvmdF9lLdaBK2xMV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBUYuIRaERUkwMmxEZBP1Do"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7ytn5ElT4yJdncd0naF4QG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">හිරු එළියට පිලිසීම</webprotege:R7ytn5ElT4yJdncd0naF4QG>
+        <webprotege:R9wSvsa1Z79TAil2nkRTbN7 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</webprotege:R9wSvsa1Z79TAil2nkRTbN7>
+        <rdfs:label xml:lang="si">හිරු එළියට පිලිසීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqIMajr1ZZdNkfiCvapKmd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RqIMajr1ZZdNkfiCvapKmd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDhwRQsx0FXJTejTr85432O"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ඇහි බැම / ඇහි පිහාටු වැඩීම බාල වීම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">ඇහි බැම / ඇහි පිහාටු වැඩීම බාල වීම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrdLCY8ECtY9t0S5Xv5VOw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RrdLCY8ECtY9t0S5Xv5VOw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RCaCtaTu56Y72OkbRp6dDip"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">කලු පැහැ තිත්</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">කලු පැහැ තිත්</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsL2EuRkejbUVnHTOemkiY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RsL2EuRkejbUVnHTOemkiY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/R8trqqeaBfouYhYifGeUf91"/>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RBqkPi7q80LYm1rb4rRu263"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">දත් දිරායාම</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">දත් දිරායාම</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz4sPdSKRvdR5bAHBt3gyB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rz4sPdSKRvdR5bAHBt3gyB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9GzDpwFMe2Mz8QO1cJqUJg"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9gC24Je1FVoLGEmr25il2V"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZELqyQFmiU2iEISU8TEbc"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R9gC24Je1FVoLGEmr25il2V rdf:resource="http://webprotege.stanford.edu/RDW9PnmN2NXKHiBKqTBcwdM"/>
+        <webprotege:R90irPhJwRzz4pGC50lGWlg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">පරපොශිතයන්</webprotege:R90irPhJwRzz4pGC50lGWlg>
+        <webprotege:RB6krKheb0CCOJz2UrEYKot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</webprotege:RB6krKheb0CCOJz2UrEYKot>
+        <rdfs:label xml:lang="si">පරපොශිතයන්</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

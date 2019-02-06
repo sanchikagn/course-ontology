@@ -1,0 +1,1732 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#"
+     xml:base="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ShoeOntology="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isFeatureOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isFeatureOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isFeatureOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isMatchFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isMatchFor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isTheSuitableGenderFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isTheSuitableGenderFor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isUsedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#isUsedIn">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#BarracudaSandals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#BarracudaSandals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Bit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Bit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#BlockHeels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#BlockHeels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Boot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Boot">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Brogues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Brogues">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualAttire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualAttire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualShoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualShoe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualAttire"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Chelsea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Chelsea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ConeHeels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ConeHeels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Derby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Derby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Double-Monk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Double-Monk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalShoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalShoe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#GentsShoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#GentsShoes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#GladiaterSandals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#GladiaterSandals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heels">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#KittenHeels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#KittenHeels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LaceUps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LaceUps">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LadiesShoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LadiesShoes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LeatherShoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LeatherShoe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Loafers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Loafers">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Monks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Monks">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Oxfords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Oxfords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Penny -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Penny">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Sandals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Sandals">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gender"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Single-Monk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Single-Monk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Attire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualShoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualShoe">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Shoe"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#matchWith"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#StackedHeels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#StackedHeels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Tassel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Tassel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wedges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wedges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#NamedShoes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#hasFeature"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#madeOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#suitableForGender"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Barac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Barac">
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perf"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <matchWith rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Formal"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Blockss1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Blockss1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#BlockHeels"/>
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heeeeel1"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Boooot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Boooot">
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Calf"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Calf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Calf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Casual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Casual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualAttire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ex1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ex1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Formal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Formal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Glad1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Glad1">
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ex1"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heeeeel1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heeeeel1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#XLoafers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#XLoafers">
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle12"/>
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#low11"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Gents1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#YoGlad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#YoGlad">
+        <hasFeature rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heeeeel1"/>
+        <madeOf rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather1"/>
+        <suitableForGender rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Ladies1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#low11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#low11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Canvas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Leather"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Plastic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Rubber"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Wood"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CasualAttire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#FormalAttire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#SmartCasualAttire"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#CoveredCalf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#ExposedFoot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Heel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Lace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#LowAnkle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Perforation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Saddle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology#Straps"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

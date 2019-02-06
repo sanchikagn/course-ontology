@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.itfac.lk/kasumi/ontologies/english.owl#"
+     xml:base="http://www.itfac.lk/kasumi/ontologies/english.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl">
+        <rdfs:comment xml:lang="en">The ontology for English course module IS 1010 for Level 1 students at Faculty of Information Technology, University of Moratuwa, Sri Lanka.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#hasAssignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#hasAssignment">
+        <owl:inverseOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#isAssignmentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#hasSubTopicOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#hasSubTopicOf"/>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#isASubTopicOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#isASubTopicOf"/>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#isAssignmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#isAssignmentOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#hasEndTimeOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#hasEndTimeOf"/>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#hasStartTimeOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#hasStartTimeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Assignment -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Content -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Content">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#SubTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#CourseWork -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#CourseWork">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Exam -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Exam">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#GroupActivity -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#GroupActivity">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#GroupWork -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#GroupWork">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#CourseWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Homework -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Homework">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Images -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Images">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#SubTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#IndividualActivity -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#IndividualActivity">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#IndividualWork -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#IndividualWork">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#CourseWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Lecture -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Lecture">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Lesson -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Lesson">
+        <owl:disjointWith rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Practice -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Practice">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#Resource -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#SubTopic -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#SubTopic">
+        <rdfs:subClassOf rdf:resource="http://www.itfac.lk/kasumi/ontologies/english.owl#Lecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge -->
+
+    <owl:Class rdf:about="http://www.itfac.lk/kasumi/ontologies/english.owl#TestingKnowledge"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+

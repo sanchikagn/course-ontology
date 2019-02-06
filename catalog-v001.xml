@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="http://www.itfac.lk/kasumi/ontologies/english.owl" uri="english.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="http://www.semanticweb.org/dileepapitawela/ontologies/2017/9/ShoeOntology" uri="ShoeOntolohy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.w3.org/2002/07/owl" uri="venv/lib/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.w3.org/2002/07/owl" uri="venv/lib/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.w3.org/2002/07/owl" uri="venv/lib/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="duplicate:http://www.w3.org/2002/07/owl" uri="venv/lib/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib64/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib64/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib64/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl" uri="venv/lib64/python3.5/site-packages/owlready/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.w3.org/2002/07/owl" uri="venv/lib64/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.w3.org/2002/07/owl" uri="venv/lib64/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.w3.org/2002/07/owl" uri="venv/lib64/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1548951297090" name="shadowed:http://www.w3.org/2002/07/owl" uri="venv/lib64/python3.5/site-packages/owlready2/owlready_ontology.owl"/>
+    </group>
+</catalog>
